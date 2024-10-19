@@ -23,5 +23,9 @@
   .card {
     @apply p-5 border border-solid border-[#222222]/10 shadow-[0_7px_14px_#EAEAEA] rounded-3xl max-w-xs w-full;
   }
+
+  .footer-icon{
+    @apply text-3xl;
+  }
   
 }
