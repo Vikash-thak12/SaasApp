@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <section className='p-5 mt-2 md:mt-5 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip overflow-y-clip'>
+        <section className='p-5 mt-2 md:mt-5 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip'>
             <div className='md:grid md:grid-cols-2 items-center'>
                 <div className='md:max-w-4xl md:px-10 md:py-10'>
                     <span className='border border-[#222]/10 inline p-2 rounded-md'>Version 2.0 is here</span>
