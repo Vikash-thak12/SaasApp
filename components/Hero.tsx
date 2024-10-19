@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import React, { useRef } from 'react'
 import { motion, useMotionValueEvent, useScroll, useTransform } from 'framer-motion'
 
@@ -25,13 +24,6 @@ const Hero = () => {
                         <button className='btn btn-primary'>Get for Free</button>
                         <button className='btn flex items-center'>
                             <span>Learn More</span>
-                            {/* <Image
-                                src={"/assets/arrow-right.svg"}
-                                alt='Arrow Right'
-                                width={32}
-                                height={32}
-                                // className='mt-1'
-                            /> */}
                         </button>
                     </div>
                 </div>

@@ -1,5 +1,7 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const ProductPage = () => {
     return (
@@ -20,19 +22,37 @@ const ProductPage = () => {
                         width={1500}
                         height={200}
                     />
-                    <Image
+                    <motion.img
                         src={"/assets/pyramid.png"}
                         alt='Product Image'
                         width={250}
                         height={200}
                         className='hidden md:block  absolute md:-right-32 md:top-0 lg:-right-20 lg:top-0'
+                        animate={{
+                            scale: [0.5, 1.5]
+                        }}
+                        transition={{
+                            duration: 3,
+                            repeat: Infinity,
+                            repeatType: 'mirror',
+                            ease: "easeInOut"
+                        }}
                     />
-                    <Image
+                    <motion.img
                         src={"/assets/tube.png"}
                         alt='Product Image'
                         width={250}
                         height={200}
                         className='hidden md:block absolute md:-left-32 md:bottom-0 lg:-left-20 lg:bottom-20'
+                        animate={{
+                            translateX: [-70, 70],
+                        }}
+                        transition={{
+                            duration: 2, 
+                            repeat: Infinity, 
+                            repeatType: "mirror",
+                            ease: "easeInOut"
+                        }}
                     />
                 </div>
             </div>
