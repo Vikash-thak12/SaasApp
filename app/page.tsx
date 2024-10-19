@@ -1,3 +1,4 @@
+import CallToAction from "@/components/CallToAction";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
@@ -15,6 +16,7 @@ export default function Home() {
       <ProductPage />
       <PricePage />
       <Testimonial />
+      <CallToAction />
     </div>
   );
 }
