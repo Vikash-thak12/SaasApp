@@ -1,5 +1,4 @@
 import { pricingTiers } from "@/data"
-import checkIcon from "@assets/checkIcon.svg"
 import { FaCheck } from "react-icons/fa";
 
 const data = pricingTiers;

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
 import PricePage from "@/components/PricePage";
 import ProductPage from "@/components/ProductPage";
+import Testimonial from "@/components/Testimonial";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <LogoTicker />
       <ProductPage />
       <PricePage />
+      <Testimonial />
     </div>
   );
 }
