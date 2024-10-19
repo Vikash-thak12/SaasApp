@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply p-2 rounded-md font-medium text-lg cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply bg-black text-white;
+  }
+  
+}

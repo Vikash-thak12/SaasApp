@@ -4,8 +4,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header>
-
+    <header className='sticky top-0 backdrop-blur-sm z-50'>
       <div className='flex items-center justify-center text-lg bg-black py-3 text-white gap-1 md:gap-3'>
         <span className='text-white/60 hidden md:block'>Streamline your workflow and boost your productivity</span>
         <h1>Get Started for Free</h1>
