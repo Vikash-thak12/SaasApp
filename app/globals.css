@@ -11,5 +11,9 @@
   .btn-primary {
     @apply bg-black text-white;
   }
+
+  .round {
+    @apply border border-[#222]/10 inline-flex p-2 rounded-md;
+  }
   
 }
