@@ -105,3 +105,30 @@ export const testimonials = [
     username: "@casey09",
   },
 ];
+
+export const data = [
+  {
+    id: 1,
+    src: "/assets/logo-acme.png",
+  },
+  {
+    id: 3,
+    src: "/assets/logo-celestial.png",
+  },
+  {
+    id: 4,
+    src: "/assets/logo-echo.png",
+  },
+  {
+    id: 5,
+    src: "/assets/logo-pulse.png",
+  },
+  {
+    id: 6,
+    src: "/assets/logo-quantum.png",
+  },
+  {
+    id: 7,
+    src: "/assets/logo-apex.png",
+  }
+];
