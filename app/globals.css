@@ -15,5 +15,9 @@
   .round {
     @apply border border-[#222]/10 inline-flex p-2 rounded-md;
   }
+
+  .section-desc {
+    @apply text-center text-xl tracking-tighter py-2 text-[#010D3E];
+  }
   
 }

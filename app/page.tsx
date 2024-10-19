@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
+import PricePage from "@/components/PricePage";
 import ProductPage from "@/components/ProductPage";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <LogoTicker />
       <ProductPage />
+      <PricePage />
     </div>
   );
 }

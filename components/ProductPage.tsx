@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProductPage = () => {
     return (
-        <section className='bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF]'>
+        <section className='py-12 md:py-24 bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF]'>
             <div className=''>
                 <div className='flex items-center justify-center'>
 
