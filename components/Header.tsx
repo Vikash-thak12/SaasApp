@@ -36,7 +36,7 @@ const Header = () => {
             <a href="#">About</a>
             <a href="#">Features</a>
             <a href="#">Customers</a>
-            <a href="#">Updates</a>
+            <a href="#pricing">Updates</a>
             <button className='bg-black p-2 rounded-md text-white text-lg'>Get Started</button>
           </nav>
         </div>
