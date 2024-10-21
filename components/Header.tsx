@@ -41,7 +41,7 @@ const Header = () => {
                 </button>
                 <div className='flex flex-col gap-5 px-10 py-3 absolute top-2 right-5 bg-white shadow-lg'>
                   <a href="#about">About</a>
-                  <a href="#features">Features</a>
+                  <a href="#dashboard">Dashboard</a>
                   <a href="#customers">Customers</a>
                   <a href="#updates">Updates</a>
                 </div>

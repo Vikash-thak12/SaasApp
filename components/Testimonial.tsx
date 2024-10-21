@@ -45,7 +45,7 @@ const TestimonialColumns = (props: { className?: string, testimonials: typeof te
 
 const Testimonial = () => {
   return (
-    <section className='py-10'>
+    <section className='py-10' id='customers'>
       <div className="container">
         <div className='px-4'>
           <h1 className='text-center font-bold text-xl'>Version 2.O is here</h1>
