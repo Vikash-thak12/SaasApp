@@ -54,10 +54,10 @@ const Header = () => {
           }
 
           <nav className='hidden md:flex items-center gap-5 text-black/60 text-xl'>
-            <a href="#">About</a>
-            <a href="#">Features</a>
-            <a href="#">Customers</a>
-            <a href="#pricing">Updates</a>
+          <a href="#about">About</a>
+                  <a href="#dashboard">Dashboard</a>
+                  <a href="#customers">Customers</a>
+                  <a href="#updates">Updates</a>
             <button className='bg-black p-2 rounded-md text-white text-lg'>Get Started</button>
           </nav>
         </div>
