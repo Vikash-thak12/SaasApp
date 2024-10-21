@@ -1,6 +1,6 @@
 'use client'
 import React, { useRef } from 'react'
-import { motion, useMotionValueEvent, useScroll, useTransform } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 const Hero = () => {
 
@@ -9,9 +9,6 @@ const Hero = () => {
         target: heroRef,
         offset: ['start end', 'end start']
     })
-
-
-    useMotionValueEvent(scrollYProgress, 'change', (latest) => console.log(latest))
     const translateY = useTransform(scrollYProgress, [0,1], [150, -150])
     return (
         <section ref={heroRef} className='p-5 mt-2 md:mt-5 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip'>

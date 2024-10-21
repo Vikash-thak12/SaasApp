@@ -1,8 +1,16 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import ArrowRight from "../public/assets/arrow-right.svg"
 import Image from 'next/image'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCrossCircled } from 'react-icons/rx';
 
 const Header = () => {
+
+  const [toggle, setToggle] = useState(false)
+  const toggleButton = () => {
+    setToggle((prev) => !prev);
+  }
   return (
     <header className='sticky top-0 backdrop-blur-sm z-50'>
       <div className='flex items-center justify-center text-lg bg-black py-3 text-white gap-1 md:gap-3'>
@@ -25,13 +33,26 @@ const Header = () => {
             height={32}
             className=''
           />
-          <Image
-            src={"/assets/menu.svg"}
-            alt='Arrow Right'
-            width={48}
-            height={32}
-            className='md:hidden'
-          />
+          {
+            toggle ? (
+              <div className='relative'>
+                <button onClick={toggleButton} className='md:hidden relative z-50'>
+                  <RxCrossCircled className='h-8 w-8 text-black' />
+                </button>
+                <div className='flex flex-col gap-5 px-10 py-3 absolute top-2 right-5 bg-white shadow-lg'>
+                  <a href="#">About</a>
+                  <a href="#">Features</a>
+                  <a href="#">Customers</a>
+                  <a href="#pricing">Updates</a>
+                </div>
+              </div> 
+            ) : (
+              <button onClick={toggleButton} className='md:hidden'>
+                <GiHamburgerMenu className='h-8 w-8 text-black' />
+              </button>
+            )
+          }
+
           <nav className='hidden md:flex items-center gap-5 text-black/60 text-xl'>
             <a href="#">About</a>
             <a href="#">Features</a>
