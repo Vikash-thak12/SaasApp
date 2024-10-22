@@ -8,7 +8,6 @@ const Footer = () => {
         <footer className='p-4 bg-black text-[#BCBCBC] text-sm text-center'>
             <div className="container">
                 <div className='flex items-center justify-center'>
-
                     <Image src={"/assets/logosaas.png"} alt="main Logo" width={40} height={40} className='' />
                 </div>
                 <nav className='my-5 flex flex-col md:flex-row font-semibold text-base items-center justify-center gap-2'>
