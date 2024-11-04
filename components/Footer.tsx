@@ -5,7 +5,7 @@ import { FaInstagram, FaPinterest, FaXTwitter, FaYoutube } from 'react-icons/fa6
 
 const Footer = () => {
     return (
-        <footer className='p-4 bg-black text-[#BCBCBC] text-sm text-center'>
+        <footer className='p-6 bg-black text-[#BCBCBC] text-sm text-center'>
             <div className="container">
                 <div className='flex items-center justify-center'>
                     <Image src={"/assets/logosaas.png"} alt="main Logo" width={40} height={40} className='' />
